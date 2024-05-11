@@ -1,6 +1,6 @@
 #!/bin/bash -eux
 
-docker run --name Demeter \
+docker run --name Artemis \
   -v ~/Artemis:/workspace \
   -v ~/Artemis/extensions:/root/.vscode-server/extensions \
   -v ~/Demeter/src/.bash_profile:/root/.bash_profile \
