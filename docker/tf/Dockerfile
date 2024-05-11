@@ -9,7 +9,7 @@ RUN apt-get -y install tmux
 RUN touch ~/.tmux.conf
 RUN echo "set -g mouse on" >> ~/.tmux.conf
 
-COPY ./requirements.txt .
+COPY ./docker/tf/requirements.txt .
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
 
