@@ -1,5 +1,5 @@
 #!/bin/bash -eux
 
 cd ~/Artemis/docker/torch
-docker build -t torch-image -f Dockerfile ../..
+docker build -t torch -f Dockerfile ../..
 cd -

@@ -1,6 +1,6 @@
 #!/bin/bash -eux
 
-docker run --name Demeter-tf \
+docker run --name Demeter \
   -v ~/Artemis:/workspace \
   -v ~/Artemis/extensions:/root/.vscode-server/extensions \
   -v ~/Demeter/src/.bash_profile:/root/.bash_profile \
@@ -11,4 +11,4 @@ docker run --name Demeter-tf \
   -v ~/.aws:/root/.aws \
   --env-file ~/.docker-env \
   --gpus all -it -d \
-  --rm tf-image
+  --rm tf
