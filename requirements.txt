@@ -1,0 +1,14 @@
+boto3
+huggingface_hub
+imageio
+jupyter
+kaggle
+matplotlib
+opencv-python
+plotly
+pydot
+scikit-learn
+scipy
+seaborn
+tqdm
+wandb
