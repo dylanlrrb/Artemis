@@ -18,6 +18,7 @@ todo.txt
 result_imgs/
 train_samples/
 __pycache__/
+/notes.txt
 
 # models
 model_scratch.pt
